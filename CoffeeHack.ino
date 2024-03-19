@@ -16,8 +16,7 @@ void setup()
     if (!versiondata)
     {
         Serial.print("Didn't find PN53x board");
-        while (1)
-            ;
+        exit(0);
     }
 
     Serial.print("Found chip PN5");

@@ -1,6 +1,0 @@
-{
-    "output": "./build",
-    "sketch": "CoffeeHack.ino",
-    "configuration": "cpu=atmega328",
-    "board": "arduino:avr:nano"
-}
